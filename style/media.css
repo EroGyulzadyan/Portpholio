@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1200px){
+	#about>img{
+        width: 40%;
+        height: auto;
+    }
+
+    #about>.info{
+        width: 59%;
+    }
+
+    #about>.info>p{
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 992px){
+	
+}
+
+@media only screen and (max-width: 768px){
+	.nameSection>h1{
+        font-size: 40px;
+    }
+    
+    .nameSection>h2{
+        font-size: 16px;
+    }
+
+    .skills-group{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #about{
+        width: 90%;
+    }
+    #about>img{
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    #about>.info{
+        width: 100%;
+    }
+    
+    .info>p{
+        width: 100%;
+    }
+
+    .work{
+        margin-top: 20px;
+    }
+    
+    .info{
+        height: 300px;
+    }
+}

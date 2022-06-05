@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/media.css">
+        <script src="js/menu.js"></script>
+    </head>
+
+    <body>
+        <!-- ------------ Header ------------ -->
+        <header>
+            <a class="logo" href="#">ERIK</a>
+
+            <!-- ------------ Navbar ------------ -->
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portpholio">Portfolio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="CV.pdf">CV</a></li>
+                </ul>
+            </nav>
+            <!-- ------------ Navbar End ------------ -->
+            <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portpholio">Portfolio</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="CV.pdf">CV</a></li>
+                </ul>
+              </div>
+        </header>
+        <br>
+        <!-- ------------ Header End ------------ -->
+
+        <!-- ------------ Main ------------ -->
+        <main>
+            <div class="nameSection">
+                <h1>Erik Gyulzadyan</h1>
+                <h2>Web developer</h2>
+            </div>
+
+            <!-- ------------ About ------------ -->
+            <section id="about">
+                <div class="info">
+                    <h3>About me</h3>
+                    <p>Hello! My name is Eric, I am 16 years old. I live in Charentsavan, Armenia.</p>
+                    <p>I'm a novice web developer. I use HTML, CSS, BootStrap technologies to create the website, and JavaScript to perform functional actions. If necessary, I can learn new languages ​​and technologies.</p>
+                    <p>You can get acquainted with some of the works I have done by getting acquainted with my <a href="#portpholio">portfolio</a>.</p>
+                  </div>
+                <img src="images/my-photo.png" alt="">
+            </section>
+            <!-- ------------ About End ------------ -->
+
+            <!-- ------------ Skills ------------ -->
+            <section id="skills">
+               <h3>Skills</h3>
+               <div class="skills-group">
+                   <div id="html" class="box">
+                      <div class="percent">
+                        <svg>
+                          <circle cx="70" cy="70" r="70"></circle>
+                          <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="num">
+                          <h2>95<span>%</span></h2>
+                        </div>
+                      </div>
+                      <h2 class="text">HTML</h2>
+                    </div>
+
+                    <div id="css" class="box">
+                        <div class="percent">
+                          <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                          </svg>
+                          <div class="num">
+                            <h2>90<span>%</span></h2>
+                          </div>
+                        </div>
+                        <h2 class="text">CSS</h2>
+                    </div>
+
+                    <div id="bs" class="box">
+                        <div class="percent">
+                          <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                          </svg>
+                          <div class="num">
+                            <h2>85<span>%</span></h2>
+                          </div>
+                        </div>
+                        <h2 class="text">BootStrap 5</h2>
+                    </div>
+
+                    <div id="js" class="box">
+                        <div class="percent">
+                          <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                          </svg>
+                          <div class="num">
+                            <h2>85<span>%</span></h2>
+                          </div>
+                        </div>
+                        <h2 class="text">JavaScript</h2>
+                    </div>
+               </div>
+            </section>
+            <!-- ------------ Skills End ------------ -->
+
+            <!-- ------------ Portpholio ------------ -->
+            <section id="portpholio">
+                <h3>Porpholio</h3>
+
+                <div class="skills-group">
+                    <div id="rabbit" class="work">
+                        <a href="https://erogyulzadyan.github.io/Rabbit-Game/">
+                            <div class="infoWork">
+                                <h3>Rabbit Game</h3>
+                                <hr>
+                                <p>HTML, CSS, JavaScript</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div id="shablon-company" class="work">
+                      <a href="https://erogyulzadyan.github.io/Shablon-Company/">
+                          <div class="infoWork">
+                              <h3>Company</h3>
+                              <hr>
+                              <p>HTML, CSS, JavaScript</p>
+                          </div>
+                      </a>
+                  </div>
+                </div>
+             </section>
+             <!-- ------------ Portpholio End ------------ -->
+            
+             <section id="contacts">
+              <h3>Contacts</h3>
+              <div>
+                <a href="https://www.facebook.com/erik.gyulzadyan/"><img class="contact-icon" src="images/facebook-icon.png" alt=""></a>
+                <a href="https://www.instagram.com/erogyulzadyan/"><img class="contact-icon" src="images/instagram-icon.png" alt=""></a>
+                <ul class="contacts-ul">
+                  <li><a href="tel:+37477784408">+37477784408</a></li>
+                  <li><a href="mailto:erogyulzadyan@gmail.com">erogyulzadyan@gmail.com</a></li>
+                </ul>
+              </div>
+              </section>
+        </main>
+        <!-- ------------ Main End ------------ -->
+    </body>
+</html>
